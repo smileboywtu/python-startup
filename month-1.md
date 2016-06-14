@@ -108,7 +108,7 @@ toggleglobalsitepackages
 
 > use free proxy for http
 
-shadowsocks is a very good apps, it can help surfe the intenet without borden. my advice is just download the goole chrome and install the shadowsocks plugin inside chrome. after that you need shadowsocks account information, you can find free ones [here](http://www.dou-bi.com/sszhfx/). you may need to login to see the free account information, make sure update the account information in the chrome plugin every three days.
+shadowsocks is a very good apps, it can help you surfe the internet without borden. my advice is just download the goole chrome and install the shadowsocks plugin inside chrome. after that you need shadowsocks account information, you can find free ones [here](http://www.dou-bi.com/sszhfx/). you may need to login to see the free account information, make sure update the account information in the chrome plugin every three days.
 
 ``` shell
 # set git work with shadowsocks

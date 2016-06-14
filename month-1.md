@@ -55,7 +55,7 @@ sudo pip install setuptools
 - virtualenv / virtualenvwrapper
 ``` shell
 # install virtualenv
-sudo dnf install virtualenv
+sudo pip install virtualenv
 
 # install virtualenvwrapper, a simple tool to manage virtual env
 sudo pip install virtualenvwrapper
@@ -107,6 +107,7 @@ toggleglobalsitepackages
 - shadowsocks / vpn
 
 > use free proxy for http
+
 shadowsocks is a very good apps, it can help surfe the intenet without borden. my advice is just download the goole chrome and install the shadowsocks plugin inside chrome. after that you need shadowsocks account information, you can find free ones [here](http://www.dou-bi.com/sszhfx/). you may need to login to see the free account information, make sure update the account information in the chrome plugin every three days.
 
 ``` shell

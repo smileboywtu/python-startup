@@ -111,8 +111,8 @@ shadowsocks is a very good apps, it can help surfe the intenet without borden. m
 
 ``` shell
 # set git work with shadowsocks
-git config --global http.proxy "socks5:127.0.0.1:8080
-git config --global https.proxy "socks5:127.0.0.1:8080
+git config --global http.proxy "socks5:127.0.0.1:8080"
+git config --global https.proxy "socks5:127.0.0.1:8080"
 ```
 
 # basic tutorial

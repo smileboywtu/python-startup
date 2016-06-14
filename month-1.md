@@ -13,6 +13,7 @@ suppose you:
 - git
 
 > install git
+
 ``` shell
 #!/usr/local/bin/zsh
 # fedora 23 using apt-get if ubuntu user
@@ -40,6 +41,7 @@ git -h
 - python 2.7
 
 > config python
+
 ``` shell
 # install python itself
 sudo dnf install python2.7
@@ -106,6 +108,7 @@ toggleglobalsitepackages
 
 > use free proxy for http
 shadowsocks is a very good apps, it can help surfe the intenet without borden. my advice is just download the goole chrome and install the shadowsocks plugin inside chrome. after that you need shadowsocks account information, you can find free ones [here](http://www.dou-bi.com/sszhfx/). you may need to login to see the free account information, make sure update the account information in the chrome plugin every three days.
+
 ``` shell
 # set git work with shadowsocks
 git config --global http.proxy "socks5:127.0.0.1:8080

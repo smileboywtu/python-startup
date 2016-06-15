@@ -1,3 +1,11 @@
+# content
+
+* [tools](#tools)
+* [python guide](#basic tutorial)
+* [enhance reading](#advance tutorial)
+* [python web starter](#web from scratch)
+* [examples](#understand example)
+
 # platform
 
 suppose you:
@@ -120,6 +128,16 @@ git config --global https.proxy "socks5:127.0.0.1:8080"
 + [google docs](https://developers.google.com/edu/python/), a very simple guide.
 
 + [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/), learn code style and map of python libs.
+
+# advance tutorial
+
++ [python memory management](http://nodefe.com/implement-of-pymalloc-from-source/)
+
+# web from scratch
+
++ [Let’s Build A Web Server. Part 1.](https://ruslanspivak.com/lsbaws-part1/)
++ [Let’s Build A Web Server. Part 2.](https://ruslanspivak.com/lsbaws-part2/)
++ [Let’s Build A Web Server. Part 3.](https://ruslanspivak.com/lsbaws-part3/)
 
 # understand example
 

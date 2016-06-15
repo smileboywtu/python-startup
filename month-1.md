@@ -136,6 +136,8 @@ git config --global https.proxy "socks5:127.0.0.1:8080"
 
 # web from scratch
 
+a very good beginner's guide for web development.
+
 + [Let’s Build A Web Server. Part 1.](https://ruslanspivak.com/lsbaws-part1/)
 + [Let’s Build A Web Server. Part 2.](https://ruslanspivak.com/lsbaws-part2/)
 + [Let’s Build A Web Server. Part 3.](https://ruslanspivak.com/lsbaws-part3/)

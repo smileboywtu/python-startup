@@ -8,10 +8,16 @@
 
 # platform
 
-suppose you:
+We assume that you:
 
-- familiar with terminal, like gnome-terminal or mac osx iterm2.
-- can use google and stackoverflow or know bing search engine.
+- are familiar with terminal, like gnome-terminal or Mac OS X iTerm2.
+- can use Google, Stack Overflow, Bing or other search engine.
+
+Caution:
+
+- Be careful with the commands prefixed with `sudo`, things might break.
+- If you're using Homebrew Python on Mac OS X, or if you're on Windows, don't
+  use `sudo`.
 
 # tools
 
@@ -23,25 +29,42 @@ suppose you:
 > install git
 
 ``` shell
-#!/usr/local/bin/zsh
-# fedora 23 using apt-get if ubuntu user
+# Use your package manager to install git, here we're on Fedora 23 and using dnf.
+# Use apt-get on Ubuntu and Debian, or yum on CentOS.
+# If you're on Windows, please refer to https://git-scm.com for installation instructions.
 sudo dnf install git
 
-# clone repo from github using ssh
+# Before you start, you should set the username and email address for git,
+# so that people can identify your commits later.
+# You can also configure them per repository if you omit the `--global` option.
+git config --global user.name "Your name"
+git config --global user.email "your_email@example.com"
+
+# Clone a repository from github using ssh
 # https://help.github.com/articles/generating-an-ssh-key/
-# use ssh can help you out of entering password every time you push the code
+# By using ssh you don't need to type your password every time you push the code.
 git clone git@github.com:smileboywtu/python-enhance.git
 
-# git pull
-# get the newest code from remote repo
+# Pull the latest code from remote repository
 git pull
 
-# git push
-# push the local code to remote
+# You can make some modification to the source code files
+# And tell git to save your modification by adding them
+git add modified_file
+
+# And when you're satisfied with your modifications, it's time to `commit` them,
+# so they can be tracked later.
+git commit -m "A meaningful commit message describing what you've modified."
+
+# Push the local code to remote repository
 git push
 
-# for other help find more docs on google or just use git -h for help description
+# If you need help, just add `-h` / `--help` as an option after `git` or a git subcommand.
+# On Linux you can also use `man git` to read detailed manual.
+# If you're not satisfied with these documentation, just Google for what you want.
 git -h
+
+# For detailed git tutorials, please refer to https://git-scm.com/book/zh/v2 .
 ```
 
 **about python**:
@@ -62,7 +85,7 @@ sudo pip install setuptools
 ```
 - virtualenv / virtualenvwrapper
 ``` shell
-# install virtualenv
+# Install virtualenv
 sudo pip install virtualenv
 
 # install virtualenvwrapper, a simple tool to manage virtual env
@@ -74,9 +97,11 @@ export WORK_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7
 source /usr/bin/virtualenvwrapper.sh
 
-# understand why use virtualenv
-# specific environment for a project that do not broke the system basic environment.
-system global environment:
+# Why use virtualenv?
+# Standalone environment for each of your projects that:
+# - isolates requirements
+# - prevents your system Python environment from breaking down
+# system global environment:
 
     - python 2.7
     - pip2
@@ -92,23 +117,24 @@ virtualenv `name2`:
     - inherited and copy the system python environment
     - can have specific packages not in system and virtualenv `name1`
 
-# simple totorial
+# Simple totorial
 # reference: https://virtualenvwrapper.readthedocs.io/en/latest/
 
-# create new virtual environment
-# this command will automatically shift to the new env
+# Create new virtual environment
+# This command will also automatically activate the newly created environment.
 mkvirtualenv `name`
 
-# exit current virtualenv
+# Exit current virtualenv
 deactivate
 
-# delete a virtualenv
+# Delete a virtualenv
 rmvirtualenv `name`
 
-# list the python packages in current virtualenv
+# List the python packages in current virtualenv
+# You can also use `pip list` if you have `pip` installed inside that virtualenv.
 lssitepackages
 
-# toggle system packages
+# Toggle system packages visibility
 toggleglobalsitepackages
 ```
 - pycharm / vim / atom / sublime
@@ -116,7 +142,7 @@ toggleglobalsitepackages
 
 > use free proxy for http
 
-shadowsocks is a very good apps, it can help you surfe the internet without borden. my advice is just download the goole chrome and install the shadowsocks plugin inside chrome. after that you need shadowsocks account information, you can find free ones [here](http://www.dou-bi.com/sszhfx/). you may need to login to see the free account information, make sure update the account information in the chrome plugin every three days.
+Shadowsocks is a very good application, it can help you surfe the internet without borden. my advice is just download the goole chrome and install the shadowsocks plugin inside chrome. after that you need shadowsocks account information, you can find free ones [here](http://www.dou-bi.com/sszhfx/). you may need to login to see the free account information, make sure update the account information in the chrome plugin every three days.
 
 ``` shell
 # set git work with shadowsocks
@@ -126,17 +152,17 @@ git config --global https.proxy "socks5:127.0.0.1:8080"
 
 # basic tutorial
 
-+ [google docs](https://developers.google.com/edu/python/), a very simple guide.
++ [Google Docs](https://developers.google.com/edu/python/), a very simple guide.
 
 + [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/), learn code style and map of python libs.
 
 # advance tutorial
 
-+ [python memory management](http://nodefe.com/implement-of-pymalloc-from-source/)
++ [Python Memory Management](http://nodefe.com/implement-of-pymalloc-from-source/)
 
 # web from scratch
 
-a very good beginner's guide for web development.
+Beginner's guide for web development.
 
 + [Let’s Build A Web Server. Part 1.](https://ruslanspivak.com/lsbaws-part1/)
 + [Let’s Build A Web Server. Part 2.](https://ruslanspivak.com/lsbaws-part2/)
@@ -144,7 +170,7 @@ a very good beginner's guide for web development.
 
 # examples
 
-1. a simple python game teach you what the good code is.
+1. A simple python game teach you what the good code is.
 game online: [http://playtictactoe.org/](http://playtictactoe.org/), python demo [here](./static/demo/tic-tac-toe.py).
 
 

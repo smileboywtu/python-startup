@@ -42,7 +42,7 @@ git config --global user.email "your_email@example.com"
 
 # Clone a repository from github using ssh
 # https://help.github.com/articles/generating-an-ssh-key/
-# By using you don't need to type your password every time you push the code
+# By using ssh you don't need to type your password every time you push the code.
 git clone git@github.com:smileboywtu/python-enhance.git
 
 # Pull the latest code from remote repository
@@ -142,7 +142,7 @@ toggleglobalsitepackages
 
 > use free proxy for http
 
-Shadowsocks is a very good apps, it can help you surfe the internet without borden. my advice is just download the goole chrome and install the shadowsocks plugin inside chrome. after that you need shadowsocks account information, you can find free ones [here](http://www.dou-bi.com/sszhfx/). you may need to login to see the free account information, make sure update the account information in the chrome plugin every three days.
+Shadowsocks is a very good application, it can help you surfe the internet without borden. my advice is just download the goole chrome and install the shadowsocks plugin inside chrome. after that you need shadowsocks account information, you can find free ones [here](http://www.dou-bi.com/sszhfx/). you may need to login to see the free account information, make sure update the account information in the chrome plugin every three days.
 
 ``` shell
 # set git work with shadowsocks

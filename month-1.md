@@ -9,7 +9,7 @@
 
 # daily
 
-1. [深入浅出Git权限校验](http://mp.weixin.qq.com/s?__biz=MzAxMTczMjgzMQ==&mid=2650587852&idx=1&sn=0c2144c7bc30a6176e309290eb50fc75&scene=1&srcid=06170Qz47CZilcjbK4kCR31J&from=groupmessage&isappinstalled=0)
+1. [深入浅出Git权限校验(2016/6/17)](http://mp.weixin.qq.com/s?__biz=MzAxMTczMjgzMQ==&mid=2650587852&idx=1&sn=0c2144c7bc30a6176e309290eb50fc75&scene=1&srcid=06170Qz47CZilcjbK4kCR31J&from=groupmessage&isappinstalled=0)
 
 # platform
 
@@ -166,6 +166,12 @@ git config --global https.proxy "socks5:127.0.0.1:8080"
 + [Python Memory Management](http://nodefe.com/implement-of-pymalloc-from-source/)
 
 # web from scratch
+
+Raw web materials:
+
++ [HTTP TCP UDP](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539211&idx=1&sn=629d1115b3992572d94b5d3e2295eb0f&scene=0)
+
++ [Simple Python Framework From Scratch](http://mattscodecave.com/posts/simple-python-framework-from-scratch.html)
 
 Beginner's guide for web development.
 

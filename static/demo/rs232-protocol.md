@@ -18,7 +18,6 @@ Let's start!
 
 + RS232 Introduction
 + Pack A Sensor Data
-+ Get A Package From RS232 Buffer
 + Unpack A Package
 + Send A Kind Of Data To Specific Processer
 
@@ -55,7 +54,7 @@ pckage format:
 
 1. **sync**: a package start with `0xFF 0xFE`, use to detect a package start.
 2. **len**: record playload length.
-3. **address**: which process to process the data.
+3. **address**: which application to process the data.
 4. **kind**: what kind of sensor data.
 5. **playload**: camera image data.
 6. **check**: xor check for the whole package.

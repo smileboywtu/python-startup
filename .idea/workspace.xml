@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7835c64c-4c45-4623-9f0b-b97f8cc8fc85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/demo/rs232-protocol.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/month-1.md" afterPath="$PROJECT_DIR$/month-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md" afterPath="$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md" />
     </list>
     <ignored path="python-enhance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,12 +37,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="month-1.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="month-1.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/month-1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="227">
-                <caret line="171" column="77" selection-start-line="171" selection-start-column="77" selection-end-line="171" selection-end-column="77" />
+              <first_editor relative-caret-position="210">
+                <caret line="171" column="20" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -52,12 +50,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web-network-basic-tutorial.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web-network-basic-tutorial.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="462">
-                <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -82,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/month-1-1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="513">
+              <first_editor relative-caret-position="547">
                 <caret line="59" column="196" selection-start-line="59" selection-start-column="196" selection-end-line="59" selection-end-column="196" />
                 <folding />
               </first_editor>
@@ -497,6 +495,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/month-1-1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="547">
+            <caret line="59" column="196" selection-start-line="59" selection-start-column="196" selection-end-line="59" selection-end-column="196" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/demo/rs232-protocol.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -508,33 +517,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="462">
-            <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/month-1-1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="513">
-            <caret line="59" column="196" selection-start-line="59" selection-start-column="196" selection-end-line="59" selection-end-column="196" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/month-1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="227">
-            <caret line="171" column="77" selection-start-line="171" selection-start-column="77" selection-end-line="171" selection-end-column="77" />
+          <first_editor relative-caret-position="210">
+            <caret line="171" column="20" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             <folding />
           </first_editor>
           <second_editor />

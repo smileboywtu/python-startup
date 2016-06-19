@@ -169,7 +169,7 @@ git config --global https.proxy "socks5:127.0.0.1:8080"
 
 Raw web materials:
 
-+ [web network basic tutorial](./static/articles/web-network-basic-tutorial.md)
++ [Web Network Basic Tutorial](./static/articles/web-network-basic-tutorial.md)
 
 + [HTTP TCP UDP](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539211&idx=1&sn=629d1115b3992572d94b5d3e2295eb0f&scene=0)
 

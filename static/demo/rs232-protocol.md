@@ -17,9 +17,9 @@ Let's start!
 # Content
 
 + RS232 Introduction
-+ Package A Sensor Data
++ Pack A Sensor Data
 + Get A Package From RS232 Buffer
-+ Get A Correct Data From A Package
++ Unpack A Package
 + Send A Kind Of Data To Specific Processer
 
 # RS232 Brief Introduction
@@ -35,7 +35,7 @@ feature:
 
 our example base on this protocol use 115200, 8 bit, No-check.
 
-# Package A Sensor Data
+# Pack A Sensor Data
 
 suppose we get a camera, after we collect image data, we have to transform to a embedded system use program-1 to process the camera data.
 

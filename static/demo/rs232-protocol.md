@@ -28,7 +28,7 @@ RS232 is a simple protocol used in low speed, small data transform scene. It wid
 
 feature:
 
-- support 9200 - 115200 bits/s
+- support 9600 - 115200 bits/s
 - support Even/Odd check
 - support 7/8 bit data each package
 - support two-wired simple transforming

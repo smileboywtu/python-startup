@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7835c64c-4c45-4623-9f0b-b97f8cc8fc85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/demo/rs232-protocol.md" afterPath="$PROJECT_DIR$/static/demo/rs232-protocol.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md" afterPath="$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md" />
     </list>
     <ignored path="python-enhance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,12 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web-network-basic-tutorial.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web-network-basic-tutorial.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="122">
-                <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+              <first_editor relative-caret-position="445">
+                <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -62,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rs232-protocol.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rs232-protocol.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/demo/rs232-protocol.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
@@ -100,8 +100,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/month-1-1.md" />
         <option value="$PROJECT_DIR$/month-1.md" />
-        <option value="$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md" />
         <option value="$PROJECT_DIR$/static/demo/rs232-protocol.md" />
+        <option value="$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md" />
       </list>
     </option>
   </component>
@@ -517,22 +517,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md">
+    <entry file="file://$PROJECT_DIR$/static/demo/rs232-protocol.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="122">
-            <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="340">
+            <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/demo/rs232-protocol.md">
+    <entry file="file://$PROJECT_DIR$/static/articles/web-network-basic-tutorial.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="340">
-            <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="445">
+            <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />

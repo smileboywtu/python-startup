@@ -109,4 +109,4 @@
 
 1. [rs232简单协议][1]
 
-[1]: ./static/demo/rs-232-protocol.md
+[1]: ./static/demo/rs232-protocol.md

@@ -9,7 +9,7 @@
 
 # daily
 
-1. [深入浅出Git权限校验(2016/6/17)](http://mp.weixin.qq.com/s?__biz=MzAxMTczMjgzMQ==&mid=2650587852&idx=1&sn=0c2144c7bc30a6176e309290eb50fc75&scene=1&srcid=06170Qz47CZilcjbK4kCR31J&from=groupmessage&isappinstalled=0)
+1. [深入浅出Git权限校验(Joker, 2016/6/17)](http://mp.weixin.qq.com/s?__biz=MzAxMTczMjgzMQ==&mid=2650587852&idx=1&sn=0c2144c7bc30a6176e309290eb50fc75&scene=1&srcid=06170Qz47CZilcjbK4kCR31J&from=groupmessage&isappinstalled=0)
 
 # platform
 

@@ -116,7 +116,7 @@ long-running operations, such as I/O, image processing, and NumPy number crunchi
 the GIL. Therefore it is only in multithreaded programs that spend a lot of time inside the GIL, 
 interpreting CPython bytecode, that the GIL becomes a bottleneck.
 
-more about GIL:
+more doc about GIL:
 
 - [python 线程，GIL 和 ctypes](http://zhuoqiang.me/python-thread-gil-and-ctypes.html)
 

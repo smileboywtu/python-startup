@@ -168,6 +168,7 @@ git config --global https.proxy "socks5:127.0.0.1:8080"
 # advance tutorial
 
 + [Python Memory Management](http://nodefe.com/implement-of-pymalloc-from-source/)
++ [Python 锁](./static/articles/python-lock.md)
 
 # web from scratch
 

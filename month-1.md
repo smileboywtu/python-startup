@@ -13,6 +13,8 @@
 
 2. [Google搜索的高级用法(Chenbo, 2016/6/19)](http://blog.jobbole.com/72211/)
 
+3. [Python Proxy(Joker, 2016/6/20)](https://mynook.info/blog/post/use-network-proxy-in-python-code?from=groupmessage&isappinstalled=0)
+
 # platform
 
 We assume that you:

@@ -12,7 +12,13 @@ This makes it a bit harder to share objects between processes with multiprocessi
 use the same memory, precautions have to be taken or two threads will write to the same memory 
 at the same time. This is what the global interpreter lock is for. 
 
+thread and process difference for dealing with http requests:
+
+- a breakdown inside a connection will not affect other ones when use multi-processing to handle requests
+- a single thread interrupt will make other threads inside the same process break down
+
 some pros and cons from [stackoverflow](http://stackoverflow.com/questions/3044580/multiprocessing-vs-threading-python)
+
 ## Multiprocessing
 
 ### Pros
@@ -47,11 +53,6 @@ some pros and cons from [stackoverflow](http://stackoverflow.com/questions/30445
 - Not interruptible/killable
 - If not following a command queue/message pump model (using the Queue module), then manual use of synchronization primitives - become a necessity (decisions are needed for the granularity of locking)
 - Code is usually harder to understand and to get right - the potential for race conditions increases dramatically
-
-thread and process difference for dealing with http requests:
-
-- a breakdown inside a connection will not affect other ones when use multi-processing to handle requests
-- a single thread interrupt will make other threads inside the same process break down
 
 python process and thread example:
 
@@ -102,6 +103,22 @@ if __name__ == "__main__":
     t1.join()  
     t2.join()  
 ```
+
+## GIL
+
+In CPython, the global interpreter lock, or GIL, is a mutex that prevents multiple native 
+threads from executing Python bytecodes at once. This lock is necessary mainly because CPython's 
+memory management is not thread-safe.
+
+The GIL is controversial because it prevents multithreaded CPython programs from taking full 
+advantage of multiprocessor systems in certain situations. Note that potentially blocking or 
+long-running operations, such as I/O, image processing, and NumPy number crunching, happen outside 
+the GIL. Therefore it is only in multithreaded programs that spend a lot of time inside the GIL, 
+interpreting CPython bytecode, that the GIL becomes a bottleneck.
+
+more about GIL:
+
+- [python 线程，GIL 和 ctypes](http://zhuoqiang.me/python-thread-gil-and-ctypes.html)
 
 # Lock VS RLock
 

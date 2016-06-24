@@ -12,6 +12,42 @@ This makes it a bit harder to share objects between processes with multiprocessi
 use the same memory, precautions have to be taken or two threads will write to the same memory 
 at the same time. This is what the global interpreter lock is for. 
 
+some pros and cons from [stackoverflow](http://stackoverflow.com/questions/3044580/multiprocessing-vs-threading-python)
+## Multiprocessing
+
+### Pros
+
+- Separate memory space
+- Code is usually straightforward
+- Takes advantage of multiple CPUs & cores
+- Avoids GIL limitations for cPython
+- Eliminates most needs for synchronization primitives unless if you use shared memory (instead, it's more of a communication model for IPC)
+- Child processes are interruptible/killable
+- Python multiprocessing module includes useful abstractions with an interface much like threading.Thread
+- A must with cPython for CPU-bound processing
+
+### Cons
+
+- IPC a little more complicated with more overhead (communication model vs. shared memory/objects)
+- Larger memory footprint
+
+## Threading
+
+### Pros
+
+- Lightweight - low memory footprint
+- Shared memory - makes access to state from another context easier
+- Allows you to easily make responsive UIs
+- cPython C extension modules that properly release the GIL will run in parallel
+- Great option for I/O-bound applications
+
+### Cons
+
+- cPython - subject to the GIL
+- Not interruptible/killable
+- If not following a command queue/message pump model (using the Queue module), then manual use of synchronization primitives - become a necessity (decisions are needed for the granularity of locking)
+- Code is usually harder to understand and to get right - the potential for race conditions increases dramatically
+
 thread and process difference for dealing with http requests:
 
 - a breakdown inside a connection will not affect other ones when use multi-processing to handle requests

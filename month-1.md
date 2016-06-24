@@ -13,9 +13,9 @@
 
 2. [Google搜索的高级用法(Chenbo, 2016/6/19)](http://blog.jobbole.com/72211/)
 
-3. [HTTPS 流量劫持](http://www.cnblogs.com/index-html/p/ssl-frontend-hijack.html?from=groupmessage&isappinstalled=0) 
+3. [HTTPS 流量劫持(Joker, 2016/6/20)](http://www.cnblogs.com/index-html/p/ssl-frontend-hijack.html?from=groupmessage&isappinstalled=0) 
 
-4. [Python Proxy(Joker, 2016/6/20)](https://mynook.info/blog/post/use-network-proxy-in-python-code?from=groupmessage&isappinstalled=0)
+4. [Python Proxy(Joker, 2016/6/21)](https://mynook.info/blog/post/use-network-proxy-in-python-code?from=groupmessage&isappinstalled=0)
 
 # platform
 

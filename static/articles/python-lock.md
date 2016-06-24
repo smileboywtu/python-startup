@@ -26,22 +26,22 @@ python threading:
 ``` python
 # -*- coding: utf-8 -*-
 
-from threading import  Thread                                                                                         
-  
-def thread_func():   
-    print "thread in"  
-    while True:  
-        pass  
-  
-if __name__ == "__main__":  
-    t1 = Thread(target = thread_func)  
-    t1.start()  
-  
-    t2 = Thread(target = thread_func)  
-    t2.start()  
-      
-    t1.join()  
-    t2.join()  
+import threading
+
+def thread_func():
+    print "thread in"
+    while True:
+      pass  
+
+if __name__ == "__main__":
+    t1 = threading.Thread(target=thread_func)
+    t1.start()
+    
+    t2 = threading.Thread(target=thread_func)
+    t2.start()
+    
+    t1.join()
+    t2.join()
 ```
 
 python process:
@@ -51,16 +51,16 @@ python process:
 
 import multiprocessing  
   
-def thread_func():   
-    print "thread in"  
+def process_func():   
+    print "process in"  
     while True:  
         pass  
   
 if __name__ == "__main__":  
-    t1 = multiprocessing.Process(target = thread_func)  
+    t1 = multiprocessing.Process(target=process_func)  
     t1.start()  
   
-    t2 = multiprocessing.Process(target = thread_func)  
+    t2 = multiprocessing.Process(target=process_func)  
     t2.start()  
       
     t1.join()  

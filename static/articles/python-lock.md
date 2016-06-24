@@ -2,6 +2,8 @@
 
 * [Thread VS Process](#Thread-VS-Process)
 * [Lock And RLock](#Lock-VS-RLock)
+* [Condition](#Condition)
+* [Event](#Event)
 
 # Thread VS Process
 

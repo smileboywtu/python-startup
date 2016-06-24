@@ -169,6 +169,7 @@ git config --global https.proxy "socks5:127.0.0.1:8080"
 
 + [Python Memory Management](http://nodefe.com/implement-of-pymalloc-from-source/)
 + [Python 锁](./static/articles/python-lock.md)
++ [ClassMethod VS StaticMethod](http://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod-in-python)
 
 # web from scratch
 

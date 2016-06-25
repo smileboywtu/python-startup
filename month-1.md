@@ -10,11 +10,10 @@
 # daily
 
 1. [深入浅出Git权限校验(Joker, 2016/6/17)](http://mp.weixin.qq.com/s?__biz=MzAxMTczMjgzMQ==&mid=2650587852&idx=1&sn=0c2144c7bc30a6176e309290eb50fc75&scene=1&srcid=06170Qz47CZilcjbK4kCR31J&from=groupmessage&isappinstalled=0)
-
 2. [Google搜索的高级用法(Chenbo, 2016/6/19)](http://blog.jobbole.com/72211/), [Official docs](http://www.googleguide.com/advanced_operators_reference.html)
-
 3. [XPath教程(Chenbo, 2016/7/20)](http://www.w3schools.com/xsl/xpath_intro.asp)
-
+4. [HTTPS 流量劫持(Joker, 2016/6/20)](http://www.cnblogs.com/index-html/p/ssl-frontend-hijack.html?from=groupmessage&isappinstalled=0)
+5. [Python Proxy(Joker, 2016/6/21)](https://mynook.info/blog/post/use-network-proxy-in-python-code?from=groupmessage&isappinstalled=0)
 
 # platform
 
@@ -163,21 +162,20 @@ git config --global https.proxy "socks5:127.0.0.1:8080"
 # basic tutorial
 
 + [Google Docs](https://developers.google.com/edu/python/), a very simple guide.
-
 + [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/), learn code style and map of python libs.
 
 # advance tutorial
 
 + [Python Memory Management](http://nodefe.com/implement-of-pymalloc-from-source/)
++ [Python 锁](./static/articles/python-lock.md)
++ [ClassMethod VS StaticMethod](http://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod-in-python)
 
 # web from scratch
 
 Raw web materials:
 
 + [Web Network Basic Tutorial](./static/articles/web-network-basic-tutorial.md)
-
 + [HTTP TCP UDP](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539211&idx=1&sn=629d1115b3992572d94b5d3e2295eb0f&scene=0)
-
 + [Simple Python Framework From Scratch](http://mattscodecave.com/posts/simple-python-framework-from-scratch.html)
 
 Beginner's guide for web development.

@@ -14,6 +14,8 @@
 3. [XPath教程(Chenbo, 2016/7/20)](http://www.w3schools.com/xsl/xpath_intro.asp)
 4. [HTTPS 流量劫持(Joker, 2016/6/20)](http://www.cnblogs.com/index-html/p/ssl-frontend-hijack.html?from=groupmessage&isappinstalled=0)
 5. [Python Proxy(Joker, 2016/6/21)](https://mynook.info/blog/post/use-network-proxy-in-python-code?from=groupmessage&isappinstalled=0)
+6. [Git Branch(Chenbo, 2016/6/26)](http://nvie.com/posts/a-successful-git-branching-model/)
+7. [SVN 简明教程(Chenbo, 2016/6/26)](./static/articles/svn-starter.md)
 
 # platform
 

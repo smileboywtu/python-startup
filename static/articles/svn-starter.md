@@ -78,13 +78,13 @@ several member may do different modify on the same file inside your team group.
 
 before you commit your work, you can manually predict conflicts use `svn status -u -r`, this command will connect to the system version system to fetch updates.
 
-1. update before commit
+**1**. update before commit
 
 ``` shell
 svn update
 ```
 
-2. resove conflicts
+**2**. resove conflicts
 
 conflicts can be handled in interactive way or you can use `p` command to handle it later.
 
@@ -98,14 +98,14 @@ conflicts can be handled in interactive way or you can use `p` command to handle
    - **(h)elp**: show help message
 
 when you use `p` command to handle conflict, the system will create another three files in your dir:
+    - **filename.mine**: hold local changes(working file)
+    - **filename.rolderversion**: hold base version
+    - **filename.rnewversion**: hold server version
 
-- **filename.mine**: hold local changes(working file)
-- **filename.rolderversion**: hold base version
-- **filename.rnewversion**: hold server version
-
-3. commit your change
+**3**. commit your change
 
 after you have resolve conflicts, you have to tell svn the file accepted
+
 ``` shell
 svn resolve --accept working|theirs-fll filename
 svn commit -m 'commit message'
@@ -113,19 +113,19 @@ svn commit -m 'commit message'
 
 # other helpful command
 
-1. use `svn cat` to show the content of a old version:
+use `svn cat` to show the content of a old version:
 
 ``` shell
 svn cat -r version file
 ```
 
-2. use `svn list` to list project tree
+use `svn list` to list project tree
 
 ```shell
 svn list http://svn.collab.net/repos/svn
 ```
 
-3. use `svn log` to show the modify on a version
+use `svn log` to show the modify on a version
 
 ``` shell
 svn log -r version[:reverion] -v

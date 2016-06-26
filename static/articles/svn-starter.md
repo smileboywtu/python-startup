@@ -108,7 +108,7 @@ when you use `p` command to handle conflict, the system will create another thre
 after you have resolve conflicts, you have to tell svn the file accepted
 
 ``` shell
-svn resolve --accept working|theirs-fll filename
+svn resolve --accept working|theirs-full filename
 svn commit -m 'commit message'
 ```
 

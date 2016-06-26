@@ -98,9 +98,10 @@ conflicts can be handled in interactive way or you can use `p` command to handle
    - **(h)elp**: show help message
 
 when you use `p` command to handle conflict, the system will create another three files in your dir:
-    - **filename.mine**: hold local changes(working file)
-    - **filename.rolderversion**: hold base version
-    - **filename.rnewversion**: hold server version
+
+- **filename.mine**: hold local changes(working file)
+- **filename.rolderversion**: hold base version
+- **filename.rnewversion**: hold server version
 
 **3**. commit your change
 

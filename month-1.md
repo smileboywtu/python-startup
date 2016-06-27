@@ -16,6 +16,7 @@
 5. [Python Proxy(Joker, 2016/6/21)](https://mynook.info/blog/post/use-network-proxy-in-python-code?from=groupmessage&isappinstalled=0)
 6. [Git Branch(Chenbo, 2016/6/26)](http://nvie.com/posts/a-successful-git-branching-model/)
 7. [SVN 简明教程(Chenbo, 2016/6/26)](./static/articles/svn-starter.md)
+8. [howdoi源码学习(Chenbo, 2016/6/26)](./static/articles/howdoi-pro.md)
 
 # platform
 

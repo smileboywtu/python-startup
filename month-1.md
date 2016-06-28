@@ -165,6 +165,7 @@ git config --global https.proxy "socks5:127.0.0.1:8080"
 # basic tutorial
 
 + [Google Docs](https://developers.google.com/edu/python/), a very simple guide.
++ [Web Code Style Guide](./static/articles/web-code-style-guide.md), simple python web style guide.
 + [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/), learn code style and map of python libs.
 
 # advance tutorial

@@ -105,3 +105,44 @@ def pack(address, kind, data):
     return binascii.unhexlify(buffer.getvalue())
 
 ```
+
+# Unpack A Package
+
+when you receive a package from the other side, you need to unpack the package to get the sensor data.
+
+if the package is small you can just use offset to get the different part out. sometime it's a good way to unpack the data use a state  machine.
+
+let's start with the simple way:
+
+``` python
+# -*- coding: utf-8 -*-
+
+"""
+use plain code to unpack the data
+"""
+
+import binascii
+
+# only a complete package here
+package = '0xFF0xFE0x12...'
+
+# read every part out from the package
+rules = [
+    (2, 4), (6, 1), (7, 2), (9, 0)
+]
+
+buffer = binascii.hexlify(package)
+
+buffer = buffer[2:-2]
+
+parts = []
+
+for offset, len in rules:
+    if len == 0:
+        parts.append(buffer[offset:])
+    else:
+        parts.append(buffer[offset:offset+len])
+
+len, address, kind, data = parts
+
+```

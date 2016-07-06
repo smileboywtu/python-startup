@@ -10,10 +10,9 @@
 
 import pprint
 import random
-#import requests
+import requests
 from lxml import html
 from string import Template
-from selenium import webdriver
 
 
 
@@ -32,14 +31,14 @@ USER_AGENTS = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/2010
 def generate_url(url_template, number):
     """generate url"""
     urls = []
-    for index in xrange(number):
+    start, delta = number
+    for index in xrange(start, start+delta):
         urls.append(Template(url_template).safe_substitute(num=index))
     return urls
 
 def scrapy_image(parser):
     """scrapy image from parser"""
-    # //*[@id='comments']/ol/li/div[1]/div/div[2]/p/img/@src
-    urls = parser.xpath("//*[@id='comments']/ol/li/div[1]/div/div[2]/p/img/@src")
+    urls = parser.xpath("//*[@id='comments']/ol[@class]/li//img/@src")
     return urls
 
 
@@ -47,17 +46,15 @@ def main(urls):
     """scrap all images on"""
     images = []
     for url in urls:
-        #page = requests.get(url, headers={'User-Agent': random.choice(USER_AGENTS)}).content
-        driver = webdriver.PhantomJS()
-        driver.get(url)
-        page = driver.page_source
+        page = requests.get(url, headers={'User-Agent': random.choice(USER_AGENTS)}).content
         parser = html.fromstring(page)
         images.extend(scrapy_image(parser))
+    images = list(set(images))
     pprint.pprint(images)
 
 
 if __name__ == '__main__':
-    number = 1
+    number = (200, 5)
     urls = generate_url(URL_TEMPLATE, number)
     main(urls)
     

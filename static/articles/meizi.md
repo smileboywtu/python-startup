@@ -9,12 +9,17 @@
 
 
 import os
-import shutil
 import random
 import pprint
-import requests
+import urllib2
 from lxml import html
 from string import Template
+
+import gevent
+# use gevent socket
+import gevent.monkey
+gevent.monkey.patch_all()
+
 
 USER_AGENTS = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0',
                'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100 101 Firefox/22.0',
@@ -27,8 +32,19 @@ USER_AGENTS = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/2010
 IMAGE_FILE_DIR = 'e:/images'
 URL_TEMPLATE = 'http://jandan.net/ooxx/page-$num#comments'
 
-START_PAGE = 100 # when set this you should go to jiandan.com to see the max tab value
-PAGE_DELTA = 5
+START_PAGE = 1880 # when set this you should go to jiandan.com to see the max tab value
+PAGE_DELTA = 3
+
+
+def construct_req(url):
+    """
+    construct the req use url
+
+    :param url: url to construct
+    :return: urllib2 req
+    """
+    req = urllib2.Request(url, headers={'User-Agent': random.choice(USER_AGENTS)})
+    return req
 
 
 def generate_url(url_template, number):
@@ -46,13 +62,16 @@ def generate_url(url_template, number):
     return urls
 
 
-def scrapy_image(parser):
+def scrapy_image(url):
     """
     scrapy the image url from the page source
 
-    :param parser: lxml.html parser
+    :param url: page url
     :return: image urls list
     """
+    req = construct_req(url)
+    page = urllib2.urlopen(req).read()
+    parser = html.fromstring(page)
     urls = parser.xpath("//*[@id='comments']/ol[@class='commentlist']/li//img/@src")
     return urls
 
@@ -65,17 +84,23 @@ def download_image(urls):
     :return: None
     """
     counter = 0
-
-    for url in urls:
-        resp = requests.get(url, stream=True)
-        if resp.status_code == 200:
-            counter += 1
+    def _download(url):
+        req = construct_req(url)
+        resp = urllib2.urlopen(req)
+        if resp.getcode() == 200:
             # path construct
             filename = url.split('/')[-1]
             path = os.path.join(IMAGE_FILE_DIR, filename)
             with open(path, 'wb') as fp:
-                resp.raw.decode_content = True
-                shutil.copyfileobj(resp.raw, fp)
+                fp.write(resp.read())
+            return 1
+        return 0
+
+    jobs = [gevent.spawn(_download, url) for url in urls]
+    gevent.joinall(jobs)
+
+    for job in jobs:
+        counter += job.value
     print 'image download process done, %d images downloaded and saved to %s' % (counter, IMAGE_FILE_DIR)
 
 
@@ -88,10 +113,10 @@ def main():
     images = []
     number = (START_PAGE, PAGE_DELTA) # start, delta
     urls = generate_url(URL_TEMPLATE, number)
-    for url in urls:
-        page = requests.get(url, headers={'User-Agent': random.choice(USER_AGENTS)}).content
-        parser = html.fromstring(page)
-        images.extend(scrapy_image(parser))
+    jobs = [gevent.spawn(scrapy_image, url) for url in urls]
+    gevent.joinall(jobs)
+    for job in jobs:
+        images.extend(job.value)
     # return none duplicate item
     images = list(set(images))
     print '%d images will be download. they are: ' % len(images)

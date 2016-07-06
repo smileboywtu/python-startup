@@ -9,6 +9,7 @@
 
 
 import os
+import time
 import random
 import pprint
 import urllib2
@@ -31,9 +32,10 @@ USER_AGENTS = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/2010
 
 IMAGE_FILE_DIR = 'e:/images'
 URL_TEMPLATE = 'http://jandan.net/ooxx/page-$num#comments'
+REQ_TIMEOUT = 15
 
-START_PAGE = 1880 # when set this you should go to jiandan.com to see the max tab value
-PAGE_DELTA = 3
+START_PAGE = 1456 # when set this you should go to jiandan.com to see the max tab value
+PAGE_DELTA = 2
 
 
 def construct_req(url):
@@ -43,6 +45,7 @@ def construct_req(url):
     :param url: url to construct
     :return: urllib2 req
     """
+    random.seed(time.time())
     req = urllib2.Request(url, headers={'User-Agent': random.choice(USER_AGENTS)})
     return req
 
@@ -86,7 +89,7 @@ def download_image(urls):
     counter = 0
     def _download(url):
         req = construct_req(url)
-        resp = urllib2.urlopen(req)
+        resp = urllib2.urlopen(req, timeout=REQ_TIMEOUT)
         if resp.getcode() == 200:
             # path construct
             filename = url.split('/')[-1]
@@ -100,7 +103,10 @@ def download_image(urls):
     gevent.joinall(jobs)
 
     for job in jobs:
-        counter += job.value
+        try:
+            counter += job.value
+        except TypeError:
+            pass
     print 'image download process done, %d images downloaded and saved to %s' % (counter, IMAGE_FILE_DIR)
 
 
@@ -116,7 +122,7 @@ def main():
     jobs = [gevent.spawn(scrapy_image, url) for url in urls]
     gevent.joinall(jobs)
     for job in jobs:
-        images.extend(job.value)
+        job.value and images.extend(job.value)
     # return none duplicate item
     images = list(set(images))
     print '%d images will be download. they are: ' % len(images)

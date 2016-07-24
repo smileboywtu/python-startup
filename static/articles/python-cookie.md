@@ -31,8 +31,8 @@
 
 这里使用urllib2, cookielib:
 
-``` python2
-
+``` python
+#！/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import urllib2

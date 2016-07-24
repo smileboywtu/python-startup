@@ -16,3 +16,4 @@
 11. [libevent 使用(Chenbo, 2016/07/16)](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539401&idx=1&sn=fef7736b718c28666b7c04a3080e009a&scene=0#wechat_redirect),libevent是以个开源的使用epool,gevent使用这个库
 12. [RESTful API设计(Chenbo, 2016/07/18)](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 13. [Python 编码问题(Chenbo, 2016/07/22)](http://wklken.me/posts/2013/08/31/python-extra-coding-intro.html)
+14. [Python 使用浏览器的Cookie(Chenbo, 2016/07/24)](./static/articles/python-cookie.md),这里使用urllib2,cookielib来加载txt中的cookie。

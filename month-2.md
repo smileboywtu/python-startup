@@ -17,3 +17,5 @@
 12. [RESTful API设计(Chenbo, 2016/07/18)](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 13. [Python 编码问题(Chenbo, 2016/07/22)](http://wklken.me/posts/2013/08/31/python-extra-coding-intro.html)
 14. [Python 使用浏览器的Cookie(Chenbo, 2016/07/24)](./static/articles/python-cookie.md),这里使用urllib2,cookielib来加载txt中的cookie。
+15. [web 下午茶(XiChen, 2016/07/25)](http://www.kancloud.cn/kancloud/tealeaf-http/43837), web 基础
+16. [Python 编码问题(Joker, 2016/07/26)](https://segmentfault.com/a/1190000006037333), encode,decode

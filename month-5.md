@@ -7,3 +7,5 @@ Sunday, 16. October 2016 01:35PM
 ---
 
 # Drops
+
+1. [check python file encoding(Chenbo, 2016/10/19)](./static/demo/charsetdet.sh)

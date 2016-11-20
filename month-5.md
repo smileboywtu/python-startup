@@ -10,4 +10,6 @@ Sunday, 16. October 2016 01:35PM
 
 1. [check python file encoding(Chenbo, 2016/10/19)](./static/demo/charsetdet.sh)
 2. [process manage(Chenbo, 2016/10/20)](http://supervisord.org/running.html)
-3. [timer task on linux(Chenbo, 2016/11/25)](http://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/)
+3. [timer task on linux(Chenbo, 2016/10/25)](http://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/)
+4. [tcp protocol, 1(Chenbo, 2016/11/20)](http://coolshell.cn/articles/11564.html)
+5. [awk tool(Chenbo, 2016/11/20)](http://coolshell.cn/articles/9070.html)

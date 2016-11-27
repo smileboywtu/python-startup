@@ -14,3 +14,5 @@ Sunday, 16. October 2016 01:35PM
 4. [tcp protocol, 1(Chenbo, 2016/11/20)](http://coolshell.cn/articles/11564.html)
 5. [awk tool(Chenbo, 2016/11/20)](http://coolshell.cn/articles/9070.html)
 6. [django gevent(Chenbo, 2016/11/27)](https://github.com/imom0/gevent_django_benchmark)
+7. [mysql join(Chenbo, 2016/11/27)](http://www.cnblogs.com/jeoleo/archive/2012/04/21/2458897.html)
+8. [how to debug shell script(Chenbo, 2016/11/27)](https://www.cyberciti.biz/tips/debugging-shell-script.html)

@@ -16,6 +16,7 @@
 4. [Web中间件(2016/08/01)][4]
 5. [Web框架(2016/09/01)][5]
 6. [Web后台管理(2016/10/01)][6]
+7. [SOCKET编程(2016/12/5)][7]
 
 
 [1]: ./month-1.md 'basic tutorial'
@@ -24,3 +25,4 @@
 [4]: ./month-3.md 'middleware'
 [5]: ./month-4.md 'async'
 [6]: ./month-5.md 'web framework'
+[7]: ./month-6.md 'socket programming'

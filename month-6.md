@@ -6,3 +6,4 @@
 3. [socket REUSEADDR and REUSEPORT(Chenbo, 2016/12/6)](http://stackoverflow.com/questions/14388706/socket-options-so-reuseaddr-and-so-reuseport-how-do-they-differ-do-they-mean-t)
 4. [socket course(Chenbo, 2016/12/6)](http://www.freesoft.org/CIE/Course/Section1/index.htm)
 5. [what's wsgi?(Chenbo, 2016/12/23)](https://github.com/lzjun567/note/blob/master/note/python/wsgi.md)
+6. [django orm manager(Chenbo, 2016/12/24)](https://docs.djangoproject.com/en/1.10/topics/db/managers/)

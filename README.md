@@ -17,6 +17,7 @@
 5. [Web框架(2016/09/01)][5]
 6. [Web后台管理(2016/10/01)][6]
 7. [SOCKET编程(2016/12/5)][7]
+8. [WEB前端设计(2017/02/18)][8]
 
 
 [1]: ./month-1.md 'basic tutorial'
@@ -26,3 +27,4 @@
 [5]: ./month-4.md 'async'
 [6]: ./month-5.md 'web framework'
 [7]: ./month-6.md 'socket programming'
+[8]: ./month-7.md 'web frontend design'

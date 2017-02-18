@@ -17,3 +17,6 @@ Sunday, 16. October 2016 01:35PM
 7. [mysql join(Chenbo, 2016/11/27)](http://www.cnblogs.com/jeoleo/archive/2012/04/21/2458897.html)
 8. [how to debug shell script(Chenbo, 2016/11/27)](https://www.cyberciti.biz/tips/debugging-shell-script.html)
 9. [ssh port forwarding(Chenbo, 2016/11/27)](http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html)
+10. [https 优化经验(Chenbo, 20170218)](http://mp.weixin.qq.com/s/Twe-fjo4JShsphfcWx573Q)
+11. [AMQP消息总线(Chenbo, 2017)](http://www.infoq.com/cn/articles/AMQP-RabbitMQ/)
+12. [HTTPS工作原理(Chenbo, 20170218)](http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html)

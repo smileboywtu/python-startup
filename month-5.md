@@ -20,3 +20,4 @@ Sunday, 16. October 2016 01:35PM
 10. [https 优化经验(Chenbo, 20170218)](http://mp.weixin.qq.com/s/Twe-fjo4JShsphfcWx573Q)
 11. [AMQP消息总线(Chenbo, 2017)](http://www.infoq.com/cn/articles/AMQP-RabbitMQ/)
 12. [HTTPS工作原理(Chenbo, 20170218)](http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html)
+13. [SQL执行流程和顺序(Chenbo, 2017/2/25)](http://www.jellythink.com/archives/924)

@@ -139,7 +139,7 @@ class Animal(object):
     def howl(self):
         pass
 
-class Monkey(object):
+class Monkey(Animal):
 
     def run(self):
         return "crawl on the branch"
@@ -151,4 +151,53 @@ class Monkey(object):
         return "eat banana"
 ```
 这个地方`Monkey`特化了`Animal`并且新增了`eat`方法，Monkey是一种动物（Animal），他继承了动物的基本的特性`walk`。
+
+## 什么是多态？
+
+多态是在继承的基础上的，继承过程中，我们不仅可以继承父类的特性，我们也可以覆盖父类的方法，实现子类特有的方法，这样反过来我们可以通过父类作为容器承载不同的子类对象，调用不同子类的同一个方法。
+
+```python
+
+class Dog(Animal):
+    def run(self):
+        print 'Dog is running...'
+
+class Cat(Animal):
+    def run(self):
+        print 'Cat is running...'
+
+def run_twice(animal):
+    animal.run()
+    animal.run()
+
+>>> run_twice(Animal())
+Animal is running...
+Animal is running...
+
+>>> run_twice(Cat())
+Cat is running...
+Cat is running...
+
+class Tortoise(Animal):
+    def run(self):
+        print 'Tortoise is running slowly...'
+
+>>> run_twice(Tortoise())
+Tortoise is running slowly...
+Tortoise is running slowly...
+
+```
+
+你会发现，新增一个Animal的子类，不必对run_twice()做任何修改，实际上，任何依赖Animal作为参数的函数或者方法都可以不加修改地正常运行，原因就在于多态。
+
+多态的好处就是，当我们需要传入Dog、Cat、Tortoise……时，我们只需要接收Animal类型就可以了，因为Dog、Cat、Tortoise……都是Animal类型，然后，按照Animal类型进行操作即可。由于Animal类型有run()方法，因此，传入的任意类型，只要是Animal类或者子类，就会自动调用实际类型的run()方法，这就是多态的意思：
+
+对于一个变量，我们只需要知道它是Animal类型，无需确切地知道它的子类型，就可以放心地调用run()方法，而具体调用的run()方法是作用在Animal、Dog、Cat还是Tortoise对象上，由运行时该对象的确切类型决定，这就是多态真正的威力：调用方只管调用，不管细节，而当我们新增一种Animal的子类时，只要确保run()方法编写正确，不用管原来的代码是如何调用的。这就是著名的“开闭”原则：
+- 对扩展开放：允许新增Animal子类；
+- 对修改封闭：不需要修改依赖Animal类型的run_twice()等函数。
+
+
+## 总结
+
+封装可以隐藏实现细节，使得代码模块化；继承可以扩展已存在的代码模块（类）；它们的目的都是为了——代码重用。而多态则是为了实现另一个目的——接口重用！多态的作用，就是为了类在继承和派生的时候，保证使用“家谱”中任一类的实例的某一属性时的正确调用。
 

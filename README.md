@@ -18,6 +18,7 @@
 6. [Web后台管理(2016/10/01)][6]
 7. [SOCKET编程(2016/12/5)][7]
 8. [WEB前端设计(2017/02/18)][8]
+9. [Python基础篇章(2017/4/6)][9]
 
 
 [1]: ./month-1.md 'basic tutorial'
@@ -28,3 +29,4 @@
 [6]: ./month-5.md 'web framework'
 [7]: ./month-6.md 'socket programming'
 [8]: ./month-7.md 'web frontend design'
+[9]: ./month-8.md 'python fundamentals'

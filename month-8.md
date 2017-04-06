@@ -78,3 +78,77 @@ if __name__ == "__main__":
 `面向对象`是一种以事物为中心的编程思想。将数据和对数据的操作放在一起，作为一个相互依存的整体，就是所谓的对象。对同类对象抽象出其共性，就是类，类中的大多数数据只能被本类的方法进行处理。类通过一个简单的外部接口与外界发生关系，对象与对象之间通过消息进行通信。
 
 面向过程其实是最为实际的一种思考方式，就是面向对象的方法也是含有面向过程的思想。可以说面向过程是一种基础的思想，它考虑的是实际的实现。一般的面向过程是从上往下步步求精，所以面向过程最重要的是模块化的思想。对比面向对象，面向对象的方法主要是把事物给对象化，对象包括属性和行为。当程序规模不是很大时，面向过程的方法还会体现出一种优势，因为程序的流程很清楚，按着模块与函数的方法可以很好的组织。
+
+# 面向对象的特点
+
+Python是一门面向对象的语言，其具备面向对象的封装，继承，多态。
+
+## 什么是封装？
+封装，也就是把客观事物封装成抽象的类，并且类可以把自己的数据和方法只让可信的类或者对象操作，对不可信的进行信息隐藏。
+
+``` python
+
+class Person(object):
+    """define a person class"""
+
+    def __init__(self, name, age, salary):
+        """init the Person"""
+        self. name = name
+        self. age = age
+        self.__salary = salary
+
+    def get_name(self):
+        return self.name
+
+    def get_salary(self):
+        return self.__show_salary()
+
+    def __show_salary(self):
+        return self.__salary * 0.8
+```
+
+这个地方我们定义了一个人，我们指定了姓名，年龄和薪水，我们可以通过`get_name`获取这个人的名字，但是我们并不能通过`get_salary`或者`someone.salary`获得这个人的薪水，因为薪水都是保密的，每个人并不想把薪水告诉其他人，这个时候`__salary`就是人这个类的私有属性，当然也可以拥有私有方法类似`__show_salary`。在Python中私有方法和属性是通过两个下划线开始的。
+
+## 什么是继承？
+
+继承是从一般到特殊的过程，一个类继承另一个类，继承后的类拥有所有基础类的特性，但是有些基础类私有的方法，继承类也是不可见的。在这个过程中还可以出现组合的形式：
+
+``` 
+A -> B
+
+A --->
+       \
+         C
+       /
+B --->
+
+```
+
+继承可能发生在多个类之间，产生比较复杂的机制。但是类继承讲究的是复用、扩展、特化：
+
+``` python
+
+class Animal(object):
+
+    def walk(self):
+        return "walk on road"
+
+    def run(self):
+        pass
+
+    def howl(self):
+        pass
+
+class Monkey(object):
+
+    def run(self):
+        return "crawl on the branch"
+
+    def howl(self):
+        return "bray"
+
+    def eat(self):
+        return "eat banana"
+```
+这个地方`Monkey`特化了`Animal`并且新增了`eat`方法，Monkey是一种动物（Animal），他继承了动物的基本的特性`walk`。
+

@@ -497,7 +497,8 @@ __init__.py  hello.py
 
 这里我们简单定义了一个包， 包名是`generic`，这个包中含有`hello`库。
 
-# 一个简单的Pyhon项目
+
+# 简单的Python项目
 
 ## 猜数字游戏
 

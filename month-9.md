@@ -234,4 +234,37 @@ class Person(object):
 >>> a["name"] = "Jhon"
 >>> a["age"] = 32
 >>> a["address"] = "sun road 114"
+>>> a.keys()        # show all keys
+>>> a.values()      # show all values
+>>> a.items()       # show key, value tuples
+>>> del a['age']    # 删除age值
 ```
+
+## 更加丰富的数据结构
+
+在python中很多的数据结构都是包含在官方的包中的，需要引入相应的数据包才能使用对应的数据结构，就比如队列来说吧：
+
+队列是一种先进先出的数据结构，常见于任务队列，在生活中所有跟排队相关的都可以认为是队列的高度抽象，来看一个简单的队列使用的例子：
+
+``` python
+
+>>> from collections import deque
+
+>>> queue = deque()             # 创建队列
+>>> queue.append("a")           # 排队
+>>> queue.append("b")           # 排队
+>>> queue
+deque(['a', 'b'])
+>>> queue.pop()                 # 从队尾取出一个元素
+'b'
+
+>>> from collections import deque
+>>> queue = deque()
+>>> queue.append("a")
+>>> queue.append("b")
+>>> queue.popleft()             # 从队头取出一个元素
+'a'
+
+```
+
+我们这里利用`deque`数据结构可以实现两种常见的数据结构队列和栈，队列和栈的区别是队列是先进先出的，而栈是后进先出的。

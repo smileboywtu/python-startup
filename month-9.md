@@ -377,7 +377,7 @@ deque(['a', 'b'])
 >>> 0 | 0
 0
 
-# ^, 不通则真
+# ^, 不同则真
 >>> 1 ^ 0
 1
 >>> 0 ^ 0
@@ -435,3 +435,211 @@ def divition(a, b):
 
 逻辑运算符常见于条件组合判断。
 
+
+## 身份运算符
+
+判断是不是同一个类型的时候：
+
+``` python
+>>> type(2) is int
+True
+>>> type("hello") is str
+True
+```
+
+## 成员运算符
+
+判断某个元素是不是一个集合的成员：
+
+``` python
+>>> 3 in (1, 3, 4)
+True
+>>> 3 in [1, 32, 34, 3]
+True
+>>> "name" in {"name": "Json", "age": 12}
+True
+```
+
+# 包和库
+
+包是库的集合，库可以简单的看作是一个py文件，库名字就是py文件的名字：
+
+定义一个python文件`hello.py`,
+
+``` python
+# hello.py
+
+name = "Jhon"
+age = 32
+address = "sun road 114"
+```
+
+然后在同一目录下面启动python解释器， 直接`import`这个库：
+
+``` python
+>>> import hello
+>>> dir(hello)
+['__builtins__', '__doc__', '__file__', '__name__', '__package__', 'address', 'age', 'name']
+>>> hello.name
+'Jhon'
+>>> hello.age
+32
+>>> hello.address
+'sun road 114'
+```
+
+在一个文件夹下定义多个库，并且包含`__init__.py`文件，那么这个文件夹就是一个包，文件夹的名字就是包名。
+
+``` shell
+$ ls generic/
+__init__.py  hello.py
+```
+
+这里我们简单定义了一个包， 包名是`generic`，这个包中含有`hello`库。
+
+# 一个简单的Pyhon项目
+
+## 猜数字游戏
+
+写一个猜数字脚本，当用户输入的数字和预设数字（随机生成一个小于100的数字）一样时，直接退出，否则让用户一直输入，并且提示用户的数字比预设数字大或者小。
+
+``` python
+#!/usr/bin/env python
+import random
+
+
+guess = 0
+tries = 0
+secret = random.randint(1,100)
+
+print "This game is to guess a number for you!"
+print " It is a number form 1 to 99, I'll give you 6 times to try. "
+
+while guess != secret and tries < 6:
+    guess = input("Please input your guess number: ")
+    if guess < secret:
+        print "====Your guess is too low !====\n"
+    elif guess > secret:
+        print "====Your guess is too high!====\n"
+    tries = tries + 1
+
+if guess == secret:
+    print "Congratulations to you! Your  guess is right ! "
+else:
+    print "No more guesses! Better luck next time for you!"
+    print "The secret number was", secret
+``` 
+
+## TIC TOC 游戏
+
+三连棋游戏(两人轮流在印有九格方盘上划“+”或“O”字, 谁先把三个同一记号排成横线、直线、斜线, 即是胜者)，可以在线玩
+
+``` python
+def print_board(board):
+
+    print "The board look like this: \n"
+
+    for i in range(3):
+        print " ",
+        for j in range(3):
+            if board[i*3+j] == 1:
+                print 'X',
+            elif board[i*3+j] == 0:
+                print 'O',  
+            elif board[i*3+j] != -1:
+                print board[i*3+j]-1,
+            else:
+                print ' ',
+            
+            if j != 2:
+                print " | ",
+        print
+        
+        if i != 2:
+            print "-----------------"
+        else: 
+            print 
+            
+def print_instruction():
+    print "Please use the following cell numbers to make your move"
+    print_board([2,3,4,5,6,7,8,9,10])
+
+
+def get_input(turn):
+
+    valid = False
+    while not valid:
+        try:
+            user = raw_input("Where would you like to place " + turn + " (1-9)? ")
+            user = int(user)
+            if user >= 1 and user <= 9:
+                return user-1
+            else:
+                print "That is not a valid move! Please try again.\n"
+                print_instruction()
+        except Exception as e:
+            print user + " is not a valid move! Please try again.\n"
+        
+def check_win(board):
+    win_cond = ((1,2,3),(4,5,6),(7,8,9),(1,4,7),(2,5,8),(3,6,9),(1,5,9),(3,5,7))
+    for each in win_cond:
+        try:
+            if board[each[0]-1] == board[each[1]-1] and board[each[1]-1] == board[each[2]-1]:
+                return board[each[0]-1]
+        except:
+            pass
+    return -1
+
+def quit_game(board,msg):
+    print_board(board)
+    print msg
+    quit()
+
+def main():
+    
+    # Start Game
+    # Change turns
+    # Checks for winner
+    # Quits and redo board
+    
+    print_instruction()
+
+    board = []
+    for i in range(9):
+        board.append(-1)
+
+    win = False
+    move = 0
+    while not win:
+
+        # Print board
+        print_board(board)
+        print "Turn number " + str(move+1)
+        if move % 2 == 0:
+            turn = 'X'
+        else:
+            turn = 'O'
+
+        # Get player input
+        user = get_input(turn)
+        while board[user] != -1:
+            print "Invalid move! Cell already taken. Please try again.\n"
+            user = get_input(turn)
+        board[user] = 1 if turn == 'X' else 0
+
+        # Continue move and check if end of game
+        move += 1
+        if move > 4:
+            winner = check_win(board)
+            if winner != -1:
+                out = "The winner is " 
+                out += "X" if winner == 1 else "O" 
+                out += ""
+                quit_game(board,out)
+            elif move == 9:
+                quit_game(board,"No winner")
+
+if __name__ == "__main__":
+    main()
+
+```

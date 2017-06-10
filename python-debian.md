@@ -96,16 +96,16 @@ EOL
     + pro_setting
         - uwsgi.py
         - settings.py
-        - __init__.py
-        _ urls.py
-    + wechat
-        - __init__.py
+        - \_\_init\_\_.py
         - urls.py
-        _ views.py
+    + wechat
+        - \_\_init\_\_.py
+        - urls.py
+        - views.py
         - models.py
         - serializers.py
     + config
-        - __init__.py
+        - \_\_init\_\_.py
         _ constants.py
         - globalconf.py
     + requirements.txt

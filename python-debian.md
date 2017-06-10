@@ -360,14 +360,14 @@ configure() {
     UWSGI_LOG_DIR=/var/log/uwsgi
 
     # create user
-    adduser --system --group --no-create-home --quiet apache || true
+    adduser --system --group --no-create-home --quiet www-data || true
 
     # make log dir
     mkdir -p $PRO_LOG_DIR
-    touch $PRO_LOG_DIR/$MODULE_NAME.log && chown -R apache:apache $PRO_LOG_DIR
+    touch $PRO_LOG_DIR/$MODULE_NAME.log && chown -R www-data:www-data $PRO_LOG_DIR
 
     mkdir -p $UWSGI_LOG_DIR
-    touch $UWSGI_LOG_DIR/$MODULE_NAME.log && chown -R apache:apache $UWSGI_LOG_DIR
+    touch $UWSGI_LOG_DIR/$MODULE_NAME.log && chown -R www-data:www-data $UWSGI_LOG_DIR
 
     # update config.yaml
     $PYTHON $WEB_PROJECT_DIR/scripts/updateconfig.py

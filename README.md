@@ -20,6 +20,7 @@
 8. [WEB前端设计(2017/02/18)][8]
 9. [Python基础篇章I(2017/4/6)][9]
 10. [Python基础篇章II(2017/4/7)][10]
+11. [Python web应用deb打包][11]
 
 
 [1]: ./month-1.md 'basic tutorial'
@@ -32,3 +33,4 @@
 [8]: ./month-7.md 'web frontend design'
 [9]: ./month-8.md 'python fundamentals'
 [10]: ./month-9.md 'python fundamentals'
+[11]: ./python-debian.md 'debian deb package'

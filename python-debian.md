@@ -106,7 +106,7 @@ EOL
         - serializers.py
     + config
         - \_\_init\_\_.py
-        _ constants.py
+        - constants.py
         - globalconf.py
     + requirements.txt
 

@@ -6,4 +6,3 @@
 2. [祛痘计划](http://mp.weixin.qq.com/s/_b0hGsQdxCZgAfVqLxeDjw)
 3. [关于期权、股票](http://mp.weixin.qq.com/s/wtTDpJpJEzp4xa4fMEuuGg)
 4. [技术人张勇创业思路](http://www.morketing.com/posts/2227)
-5. 

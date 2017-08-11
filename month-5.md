@@ -24,3 +24,6 @@ Sunday, 16. October 2016 01:35PM
 14. [Linux Kernal Detail(Chenbo, 2017/2/25)](http://mp.weixin.qq.com/s/Np_h8qpj1aiw2Hx3D57fqw)
 15. [select for update01(Chenbo, 2017/3/28)](http://ju.outofmemory.cn/entry/178798)
 16. [select for update02(Chenbo, 2017/3/28)](http://chenzhou123520.iteye.com/blog/1860954)
+17. [high performance `ScyllaDB`](http://www.scylladb.com/users/)
+18. [Guide to Deploying Diffie-Hellman for TLS](https://weakdh.org/sysadmin.html)
+19. [why linux process D status](https://lwn.net/Articles/288056/)

@@ -21,8 +21,9 @@
 9. [Python基础篇章I(2017/4/6)][9]
 10. [Python基础篇章II(2017/4/7)][10]
 11. [Python web应用deb打包][11]
-12. [思维拓展阅读][12]
-13. [编程工具推荐][13]
+12. [高效Django Web][12]
+13. [思维拓展阅读][13]
+14. [编程工具推荐][14]
 
 
 [1]: ./month-1.md 'basic tutorial'
@@ -36,5 +37,6 @@
 [9]: ./month-8.md 'python fundamentals'
 [10]: ./month-9.md 'python fundamentals'
 [11]: ./python-debian.md 'debian deb package'
-[12]: ./month-10.md '思维拓展'
-[13]: ./month-11.md '编程工具'
+[12]: ./django-web.md 'django web'
+[13]: ./month-10.md '思维拓展'
+[14]: ./month-11.md '编程工具'

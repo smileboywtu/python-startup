@@ -17,6 +17,7 @@
 6. [Git Branch(Chenbo, 2016/6/26)](http://nvie.com/posts/a-successful-git-branching-model/)
 7. [SVN 简明教程(Chenbo, 2016/6/26)](./static/articles/svn-starter.md)
 8. [howdoi源码学习(Chenbo, 2016/6/26)](./static/articles/howdoi-pro.md)
+9. [程序员自我修养简牍](https://bestswifter.com/cheng-xu-yuan-de-zi-wo-xiu-yang-du-shu-bi-ji/)
 
 # platform
 

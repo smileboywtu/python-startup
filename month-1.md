@@ -18,6 +18,7 @@
 7. [SVN 简明教程(Chenbo, 2016/6/26)](./static/articles/svn-starter.md)
 8. [howdoi源码学习(Chenbo, 2016/6/26)](./static/articles/howdoi-pro.md)
 9. [程序员自我修养简牍](https://bestswifter.com/cheng-xu-yuan-de-zi-wo-xiu-yang-du-shu-bi-ji/)
+10. [GIT基本操作](http://lingxiankong.github.io/2014-07-18-git-notes.html)
 
 # platform
 

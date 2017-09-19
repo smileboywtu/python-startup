@@ -20,3 +20,4 @@
 15. [web 下午茶(XiChen, 2016/07/25)](http://www.kancloud.cn/kancloud/tealeaf-http/43837), web 基础
 16. [Python 编码问题(Joker, 2016/07/26)](https://segmentfault.com/a/1190000006037333), encode,decode
 17. [Python异步(Chenbo, 20170218)](https://zhuanlan.zhihu.com/p/25228075?winzoom=1)
+18. [HTTPS TLS握手详解](https://imququ.com/post/optimize-tls-handshake.html)

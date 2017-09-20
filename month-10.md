@@ -13,3 +13,4 @@
 9. [（转）新西兰移民开篇](http://lingxiankong.github.io/2015-10-07-newzealand-immigration-1.html)
 10. [（转）新西兰技术移民-offer](http://lingxiankong.github.io/2015-10-11-newzealand-immigration-2.html)
 11. [（转）新西兰技术移民-签证](http://lingxiankong.github.io/2015-10-31-newzealand-immigration-3.html)
+12. [（转）当下有钱人](https://mp.weixin.qq.com/s/pGGSahI15b-ZsXrqddMQPg)

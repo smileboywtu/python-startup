@@ -43,7 +43,7 @@
 
 # python笔试
 
-        #TODO: 增加一些笔试的题目，长期更新。
+[github 面试题目精选](https://github.com/CyC2018/Interview-Notebook)
 
 # 面试交流
 

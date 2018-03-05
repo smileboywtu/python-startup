@@ -16,3 +16,4 @@
 12. [（转）当下有钱人](https://mp.weixin.qq.com/s/pGGSahI15b-ZsXrqddMQPg)
 13. [网易云音乐推荐算法猜测](https://www.zhihu.com/question/26743347)
 14. [如何开始 hacking](https://teamultimate.in/start-here/)
+15. [Hacker Check List](https://teamultimate.in/start-here/)

@@ -17,3 +17,4 @@
 13. [网易云音乐推荐算法猜测](https://www.zhihu.com/question/26743347)
 14. [如何开始 hacking](https://teamultimate.in/start-here/)
 15. [Hacker Check List](https://teamultimate.in/start-here/)
+16. [如何开始理财](http://mp.weixin.qq.com/s/MGlH0F70U0SHQswCHvG-_A)

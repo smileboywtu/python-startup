@@ -4,3 +4,4 @@
 2. [拿陈小姐讲区块链](https://zhuanlan.zhihu.com/p/33900435)
 3. [区块链技术-智能合约-以太坊](http://ethfans.org/posts/block-chain-technology-smart-contracts-and-ethereum)
 4. [区块链的意义](https://zhuanlan.zhihu.com/p/22228902)
+5. [证券投资类私募基金管理人的具体工作有哪些](https://www.zhihu.com/question/31009100)

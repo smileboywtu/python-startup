@@ -7,3 +7,4 @@
 5. [证券投资类私募基金管理人的具体工作有哪些](https://www.zhihu.com/question/31009100)
 6. [区块链入门](http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html)
 7. [比特比入门](http://www.ruanyifeng.com/blog/2018/01/bitcoin-tutorial.html)
+8. [货币的实质](http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html)

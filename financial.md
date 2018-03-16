@@ -5,3 +5,5 @@
 3. [区块链技术-智能合约-以太坊](http://ethfans.org/posts/block-chain-technology-smart-contracts-and-ethereum)
 4. [区块链的意义](https://zhuanlan.zhihu.com/p/22228902)
 5. [证券投资类私募基金管理人的具体工作有哪些](https://www.zhihu.com/question/31009100)
+6. [区块链入门](http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html)
+7. [比特比入门](http://www.ruanyifeng.com/blog/2018/01/bitcoin-tutorial.html)

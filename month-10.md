@@ -19,3 +19,4 @@
 15. [Hacker Check List](https://teamultimate.in/start-here/)
 16. [如何开始理财](http://mp.weixin.qq.com/s/MGlH0F70U0SHQswCHvG-_A)
 17. [AWS 助理级架构师考证经验](http://www.huangbowen.net/blog/2017/06/08/hwo-to-pass-aws-certifications/)
+18. [AWS 助理级架构师考证经验](https://www.duyidong.com/2017/04/05/How-to-pass-the-aws-certification/)

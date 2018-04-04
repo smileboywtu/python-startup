@@ -13,3 +13,4 @@
 6. [windows 文件索引工具](http://www.voidtools.com/)
 7. [simple and easy user linux command page](http://www.linfo.org/index.html)
 8. [武汉安全行业动态](http://mp.weixin.qq.com/s/oMAt_Z896pzhDad0cE5EGQ)
+9. [VIM使用说明](http://www.zyy1217.com/2018/03/04/%E9%AB%98%E6%95%88%E7%8E%87%E7%BC%96%E8%BE%91%E5%99%A8%20Vim%E2%80%94%E2%80%94%E6%93%8D%E4%BD%9C%E7%AF%87/)

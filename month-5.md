@@ -30,3 +30,4 @@ Sunday, 16. October 2016 01:35PM
 20. [NGINX配置](https://imququ.com/post/my-nginx-conf.html)
 21. [进程的空间地址](http://blog.csdn.net/tennysonsky/article/details/45092229)
 22. [RSA加密和HTTPS基本原理](http://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html)
+23. [oauth2 HTTP 认证问题](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)

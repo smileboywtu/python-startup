@@ -32,3 +32,4 @@ Sunday, 16. October 2016 01:35PM
 22. [RSA加密和HTTPS基本原理](http://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html)
 23. [oauth2 HTTP 认证问题](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 24. [JWT HTTP 认证](https://www.jianshu.com/p/576dbf44b2ae)
+25. [数字交易所Binance 二次认证问题](https://zhuanlan.zhihu.com/p/34411202)

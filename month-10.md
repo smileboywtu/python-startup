@@ -21,3 +21,4 @@
 17. [AWS 助理级架构师考证经验](http://www.huangbowen.net/blog/2017/06/08/hwo-to-pass-aws-certifications/)
 18. [AWS 助理级架构师考证经验](https://www.duyidong.com/2017/04/05/How-to-pass-the-aws-certification/)
 19. [选择是你自己的](http://kamranahmed.info/blog/2018/03/24/choice-is-yours/)
+20. [13个忠告](https://jin-yang.github.io/post/thirteen-tips-about-lifelong-growth.html)

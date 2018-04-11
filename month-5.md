@@ -33,3 +33,4 @@ Sunday, 16. October 2016 01:35PM
 23. [oauth2 HTTP 认证问题](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 24. [JWT HTTP 认证](https://www.jianshu.com/p/576dbf44b2ae)
 25. [数字交易所Binance 二次认证问题](https://zhuanlan.zhihu.com/p/34411202)
+26. [基于REDIS的限流系统](https://mp.weixin.qq.com/s?__biz=MzI0MTk0NTY5MA==&mid=2247483711&idx=1&sn=28780c8b26f24ac6314ff5c599bb622c&chksm=e9029c0ade75151c353cd6b720ce438b4342afd8ef3a7d03c61712554c6a000ac3646bbc3124&scene=38#wechat_redirect)

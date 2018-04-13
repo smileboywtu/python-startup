@@ -35,3 +35,4 @@ Sunday, 16. October 2016 01:35PM
 25. [数字交易所Binance 二次认证问题](https://zhuanlan.zhihu.com/p/34411202)
 26. [基于REDIS的限流系统](https://mp.weixin.qq.com/s?__biz=MzI0MTk0NTY5MA==&mid=2247483711&idx=1&sn=28780c8b26f24ac6314ff5c599bb622c&chksm=e9029c0ade75151c353cd6b720ce438b4342afd8ef3a7d03c61712554c6a000ac3646bbc3124&scene=38#wechat_redirect)
 27. [Ansible 简介](https://jin-yang.github.io/post/python-ansible.html)
+28. [GO kill 子进程](https://www.jianshu.com/p/1f3ec2f00b03)

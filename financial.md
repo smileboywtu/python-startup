@@ -8,3 +8,4 @@
 6. [区块链入门](http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html)
 7. [比特比入门](http://www.ruanyifeng.com/blog/2018/01/bitcoin-tutorial.html)
 8. [货币的实质](http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html)
+9. [Open Archive](https://docs.google.com/document/d/19WItKd0iGNgTsipcaFlY5hy3eM3jEvPc9hXN1Z5k5QI/edit#)

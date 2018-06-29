@@ -23,3 +23,4 @@
 19. [选择是你自己的](http://kamranahmed.info/blog/2018/03/24/choice-is-yours/)
 20. [13个忠告](https://jin-yang.github.io/post/thirteen-tips-about-lifelong-growth.html)
 21. [关于职业选择](http://www.ruanyifeng.com/blog/2016/07/hen-and-front-end-engineer.html)
+22. [华为宝典](https://blog.csdn.net/stpeace/article/details/41902271)

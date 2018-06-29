@@ -11,3 +11,5 @@
 9. [Open Archive](https://docs.google.com/document/d/19WItKd0iGNgTsipcaFlY5hy3eM3jEvPc9hXN1Z5k5QI/edit#)
 10. [ETH矿工费](https://support.token.im/hc/zh-cn/articles/360004345634-%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E7%9F%BF%E5%B7%A5%E8%B4%B9)
 11. [ETH最新矿工费](https://ethgasstation.info/)
+12. [如何计算复利](https://zh.wikihow.com/%E8%AE%A1%E7%AE%97%E5%A4%8D%E5%88%A9)
+13. [金融收益公式](http://bond.jrj.com.cn/2017/05/10134622456945.shtml)

@@ -25,3 +25,4 @@
 21. [关于职业选择](http://www.ruanyifeng.com/blog/2016/07/hen-and-front-end-engineer.html)
 22. [华为宝典](https://blog.csdn.net/stpeace/article/details/41902271)
 23. [程序员职业规划](http://blog.jobbole.com/899/)
+24. [大公司或者小公司](http://wmcxy.iteye.com/blog/2067861)

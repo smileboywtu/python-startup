@@ -39,3 +39,4 @@ Sunday, 16. October 2016 01:35PM
 29. [Linux 打造主机安全](http://www.freebuf.com/articles/system/121540.html)
 30. [Linux shell extglob](http://mywiki.wooledge.org/glob#extglob)
 31. [Django Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
+32. [TCP 拆包](http://www.ideawu.net/blog/)

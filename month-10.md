@@ -26,3 +26,4 @@
 22. [华为宝典](https://blog.csdn.net/stpeace/article/details/41902271)
 23. [程序员职业规划](http://blog.jobbole.com/899/)
 24. [大公司或者小公司](http://wmcxy.iteye.com/blog/2067861)
+25. [学会包装自己](http://www.xinli001.com/info/100362855)

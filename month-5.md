@@ -42,3 +42,4 @@ Sunday, 16. October 2016 01:35PM
 32. [TCP 拆包](http://www.ideawu.net/blog/)
 33. [最大TCP连接数](http://blog.51cto.com/yaocoder/1312821)
 34. [mysql 索引建立](https://www.cnblogs.com/nixi8/p/4574709.html)
+35. [SNAT和DNAT](https://www.cnblogs.com/mangood/p/6024053.html)

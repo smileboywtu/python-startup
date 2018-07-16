@@ -43,7 +43,8 @@
 
 # python笔试
 
-[github 面试题目精选](https://github.com/CyC2018/Interview-Notebook)
+- [github 面试题目精选](https://github.com/CyC2018/Interview-Notebook)
+- [绿盟科技](https://192.168.5.246/svn/cloud/Etau/trunk/api)
 
 # 面试交流
 

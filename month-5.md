@@ -46,3 +46,4 @@ Sunday, 16. October 2016 01:35PM
 36. [IPTABLES](https://zhuanlan.zhihu.com/p/26325389)
 37. [系统架构设计](https://github.com/CocoBir/system-design-primer/blob/master/README-zh-Hans.md)
 38. [Firewalld tutorial](https://www.linode.com/docs/security/firewalls/introduction-to-firewalld-on-centos/)
+39. [Linux后台高并发优化](https://www.jianshu.com/p/e0b52dc702d6)

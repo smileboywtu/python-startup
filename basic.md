@@ -101,6 +101,10 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7
 source /usr/bin/virtualenvwrapper.sh
 ```
 
+## 配置代理
+
+- [SS代理搭建和配置](./static/articles/shadowsocks.md)
+
 # 进阶教程
 
 这部分主要分类介绍 Python 的知识。

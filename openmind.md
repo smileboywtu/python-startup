@@ -29,3 +29,4 @@
 * [大公司或者小公司](http://wmcxy.iteye.com/blog/2067861)
 * [学会包装自己](http://www.xinli001.com/info/100362855)
 * [程序员自我修养简牍](https://bestswifter.com/cheng-xu-yuan-de-zi-wo-xiu-yang-du-shu-bi-ji/)
+* [中文写作技巧](https://github.com/smileboywtu/document-style-guide)

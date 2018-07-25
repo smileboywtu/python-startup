@@ -1,0 +1,31 @@
+# 思维拓展
+
+程序只是一种实现产品或者思想的工具，重要的还是来自生活的创意和想法。
+
+## 阅读列表
+* [阮一峰随笔](https://ruanyf.github.io/survivor/)
+* [祛痘计划](http://mp.weixin.qq.com/s/_b0hGsQdxCZgAfVqLxeDjw)
+* [关于期权、股票](http://mp.weixin.qq.com/s/wtTDpJpJEzp4xa4fMEuuGg)
+* [技术人张勇创业思路](http://www.morketing.com/posts/2227)
+* [如何追喜欢的妹子](https://zh.wikihow.com/%E8%AE%A9%E4%B8%80%E4%B8%AA%E5%A5%B3%E5%AD%A9%E5%81%9A%E4%BD%A0%E7%9A%84%E5%A5%B3%E6%9C%8B%E5%8F%8B)
+* [金融期货基础及工具](https://www.botvs.com/bbs-topic/458)
+* [（转）东京印象](http://lingxiankong.github.io/2015-10-31-tokyo-impression.html)
+* [（转）为何大量中国精英纷纷选择移民海外](http://lingxiankong.github.io/2016-04-04-why-immigration.html)
+* [（转）新西兰移民开篇](http://lingxiankong.github.io/2015-10-07-newzealand-immigration-1.html)
+* [（转）新西兰技术移民-offer](http://lingxiankong.github.io/2015-10-11-newzealand-immigration-2.html)
+* [（转）新西兰技术移民-签证](http://lingxiankong.github.io/2015-10-31-newzealand-immigration-3.html)
+* [（转）当下有钱人](https://mp.weixin.qq.com/s/pGGSahI15b-ZsXrqddMQPg)
+* [网易云音乐推荐算法猜测](https://www.zhihu.com/question/26743347)
+* [如何开始 hacking](https://teamultimate.in/start-here/)
+* [Hacker Check List](https://teamultimate.in/start-here/)
+* [如何开始理财](http://mp.weixin.qq.com/s/MGlH0F70U0SHQswCHvG-_A)
+* [AWS 助理级架构师考证经验](http://www.huangbowen.net/blog/2017/06/08/hwo-to-pass-aws-certifications/)
+* [AWS 助理级架构师考证经验](https://www.duyidong.com/2017/04/05/How-to-pass-the-aws-certification/)
+* [选择是你自己的](http://kamranahmed.info/blog/2018/03/24/choice-is-yours/)
+* [13个忠告](https://jin-yang.github.io/post/thirteen-tips-about-lifelong-growth.html)
+* [关于职业选择](http://www.ruanyifeng.com/blog/2016/07/hen-and-front-end-engineer.html)
+* [华为宝典](https://blog.csdn.net/stpeace/article/details/41902271)
+* [程序员职业规划](http://blog.jobbole.com/899/)
+* [大公司或者小公司](http://wmcxy.iteye.com/blog/2067861)
+* [学会包装自己](http://www.xinli001.com/info/100362855)
+* [程序员自我修养简牍](https://bestswifter.com/cheng-xu-yuan-de-zi-wo-xiu-yang-du-shu-bi-ji/)

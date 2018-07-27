@@ -12,3 +12,4 @@
 * [Compose rebuild a single service](https://staxmanade.com/2016/09/how-to-update-a-single-running-docker-compose-container/)
 * [Ansible 简介](https://jin-yang.github.io/post/python-ansible.html)
 * [Django 打包成 Debian](./static/articles/python-debian.md)
+* [Golang 代码质量检测](https://github.com/developer-learning/night-reading-go/blob/master/articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md)

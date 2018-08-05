@@ -72,3 +72,4 @@
 * [Python 使用浏览器的Cookie](./static/articles/python-cookie.md),这里使用urllib2,cookielib来加载txt中的cookie。
 * [web 下午茶](http://www.kancloud.cn/kancloud/tealeaf-http/43837), web 基础
 * [Python 编码问题](https://segmentfault.com/a/1190000006037333), encode,decode
+* [Python slots](https://eastlakeside.gitbooks.io/interpy-zh/content/slots_magic/)

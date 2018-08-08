@@ -74,3 +74,4 @@
 * [Python 编码问题](https://segmentfault.com/a/1190000006037333), encode,decode
 * [Python slots](https://eastlakeside.gitbooks.io/interpy-zh/content/slots_magic/)，减少内存占用
 * [使用Python Mock](https://evangui.com/2016/02/29/%E7%94%A8-mock-%E4%BE%86%E4%BD%9C-python-unit-test/)
+* [Python 生成器详解](https://www.cnblogs.com/jessonluo/p/4732565.html)

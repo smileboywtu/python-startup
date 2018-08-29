@@ -9,3 +9,4 @@
 * [Django 树形分类结构存储](https://bob.36deep.com/django-tree-storage)
 * [Django 内存泄漏I](http://blog.gingerlime.com/2011/django-memory-leaks-part-i/comment-page-1/#comment-59726)
 * [Django 内存泄漏II](http://blog.gingerlime.com/2011/django-memory-leaks-part-ii/)
+* [Tornado StackContext 源码学习](https://www.jianshu.com/p/3e58f977b908)

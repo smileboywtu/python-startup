@@ -77,3 +77,4 @@
 * [Python 生成器详解](https://www.cnblogs.com/jessonluo/p/4732565.html)
 * [aiosync 原理](http://www.aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html)
 * [Python 调用 JAVA class 类](https://pyjnius.readthedocs.io/en/latest/)
+* [Open Fass 简介](https://github.com/developer-learning/night-reading-go/blob/master/reading/20180906/%E6%9E%B6%E6%9E%84.jpg)

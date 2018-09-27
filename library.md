@@ -13,5 +13,5 @@ Python 库的说明和使用积累。
 * [web 安全测试常见逻辑漏洞](http://www.freebuf.com/vuls/112339.html)
 * [YAML 配置文件编写](http://www.ruanyifeng.com/blog/2016/07/yaml.html?f=tt)，简单，实用，强大
 * [tcp timewait closewait](http://www.cnblogs.com/sunxucool/p/3449068.html)，常见服务端连接数处理
-* [XPath教程](http://www.w3schools.com/xsl/xpath_intro.asp)
+* [XPath教程](https://zhuanlan.zhihu.com/p/29436838)
 * [process manage](http://supervisord.org/running.html)

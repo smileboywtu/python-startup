@@ -14,3 +14,5 @@
 * [Django 打包成 Debian](./static/articles/python-debian.md)
 * [Golang 代码质量检测](https://github.com/developer-learning/night-reading-go/blob/master/articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md)
 * [Docker sh line format](https://stackoverflow.com/questions/37419042/container-command-start-sh-not-found-or-does-not-exist-entrypoint-to-contain)
+* [Ansible AWX](https://github.com/ansible/awx)
+

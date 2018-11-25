@@ -19,3 +19,4 @@
 * [SVN 简明教程](./static/articles/svn-starter.md)
 * [Google搜索的高级用法](http://blog.jobbole.com/72211/), [Official docs](http://www.googleguide.com/advanced_operators_reference.html)
 * [SourceGraph project](https://sourcegraph.com)
+* [Jenkins](https://jenkins.io/)

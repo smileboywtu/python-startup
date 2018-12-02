@@ -8,6 +8,8 @@
 
 最后，这个项目也有一个微信交流群，如果想要进群交流，先添加我的个人微信： 294101042。
 
+另外也提供`为知笔记本`，开发人员可以直接在里面搜索复用需要的代码和解决办法，进群链接：[https://note.wiz.cn/web/pages/manage/biz/applyInvited.html?code=km832q](https://note.wiz.cn/web/pages/manage/biz/applyInvited.html?code=km832q)。
+
 # 目录
 
 ## 工作

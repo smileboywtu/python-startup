@@ -79,3 +79,4 @@
 * [Python 调用 JAVA class 类](https://pyjnius.readthedocs.io/en/latest/)
 * [Open Fass 简介](https://github.com/developer-learning/night-reading-go/blob/master/reading/20180906/%E6%9E%B6%E6%9E%84.jpg)
 * [Big Data](https://github.com/guzhenping/guzhenping-blog)
+* [一致性算法](https://github.com/maemual/raft-zh_cn/blob/master/raft-zh_cn.md)

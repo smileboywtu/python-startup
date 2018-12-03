@@ -81,3 +81,4 @@
 * [Big Data](https://github.com/guzhenping/guzhenping-blog)
 * [一致性算法](https://github.com/maemual/raft-zh_cn/blob/master/raft-zh_cn.md)
 * [MySQL 连接分类及运维](https://hacpai.com/article/1536248398959)
+* [mysql解析](http://www.godpan.me/2017/11/10/mysql-protocol.html?utm_source=hacpai.com)

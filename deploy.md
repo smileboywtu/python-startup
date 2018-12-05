@@ -15,4 +15,6 @@
 * [Golang 代码质量检测](https://github.com/developer-learning/night-reading-go/blob/master/articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md)
 * [Docker sh line format](https://stackoverflow.com/questions/37419042/container-command-start-sh-not-found-or-does-not-exist-entrypoint-to-contain)
 * [Ansible AWX](https://github.com/ansible/awx)
+* [Alpine Virtualenv](https://github.com/gliderlabs/docker-alpine/blob/master/docs/usage.md)
+* [Docker Pip Cache](https://jpetazzo.github.io/2013/12/01/docker-python-pip-requirements/)
 

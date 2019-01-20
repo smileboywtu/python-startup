@@ -90,6 +90,20 @@ sudo pip install setuptools virtualenv virtualenvwrapper
 
 `virtualenvwrapp` 的使用说明请参照[官方文档](http://virtualenvwrapper.readthedocs.io/en/latest/)。
 
+## 使用`miniconda`管理python
+
+下载并安装`miniconda`，这里以`linux`为例：
+```shell
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+chmod +x Miniconda3-latest-Linux-x86_64.sh
+./Miniconda3-latest-Linux-x86_64.sh
+```
+
+将下面的配置写到`.zshrc`中：
+```shell
+export PATH="/path/to/miniconda3/bin:$PATH"
+. /home/smile/miniconda3/etc/profile.d/conda.sh
+```
 
 ## 配置 oh-my-zsh
 
@@ -100,6 +114,14 @@ export WORK_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7
 source /usr/bin/virtualenvwrapper.sh
 ```
+
+## 其余好用的 shell 插件推荐
+
++ [z](https://github.com/rupa/z)
++ [ngrep网络抓包](https://github.com/jpr5/ngrep)
++ [htop](https://github.com/hishamhm/htop)
++ [slurm网络带宽检测](https://github.com/mattthias/slurm)
++ [httpie 命令行 postman](https://github.com/jakubroztocil/httpie)
 
 ## 配置代理
 
@@ -134,3 +156,7 @@ source /usr/bin/virtualenvwrapper.sh
 + [Web Network Basic Tutorial](./static/articles/web-network-basic-tutorial.md)
 + [HTTP TCP UDP](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539211&idx=1&sn=629d1115b3992572d94b5d3e2295eb0f&scene=0)
 + [Simple Python Framework From Scratch](http://mattscodecave.com/posts/simple-python-framework-from-scratch.html)
+
+## 其他资料汇总
++ [show me the code](https://github.com/Yixiaohan/show-me-the-code)
++ [Python初学者](https://github.com/Yixiaohan/codeparkshare)

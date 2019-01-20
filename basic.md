@@ -102,7 +102,7 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 将下面的配置写到`.zshrc`中：
 ```shell
 export PATH="/path/to/miniconda3/bin:$PATH"
-. /home/smile/miniconda3/etc/profile.d/conda.sh
+. /path/to/miniconda3/etc/profile.d/conda.sh
 ```
 
 ## 配置 oh-my-zsh

@@ -15,3 +15,4 @@ Python 库的说明和使用积累。
 * [tcp timewait closewait](http://www.cnblogs.com/sunxucool/p/3449068.html)，常见服务端连接数处理
 * [XPath教程](https://zhuanlan.zhihu.com/p/29436838)
 * [process manage](http://supervisord.org/running.html)
+* [astpath](https://github.com/hchasestevens/astpath)，使用xpath来查找Python源文件中的信息

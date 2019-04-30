@@ -16,3 +16,4 @@ Python 库的说明和使用积累。
 * [XPath教程](https://zhuanlan.zhihu.com/p/29436838)
 * [process manage](http://supervisord.org/running.html)
 * [astpath](https://github.com/hchasestevens/astpath)，使用xpath来查找Python源文件中的信息
+* [wordcloud](https://github.com/amueller/word_cloud)，python 词云生成工具

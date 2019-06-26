@@ -82,4 +82,5 @@
 * [一致性算法](https://github.com/maemual/raft-zh_cn/blob/master/raft-zh_cn.md)
 * [MySQL 连接分类及运维](https://hacpai.com/article/1536248398959)
 * [mysql协议解析](http://www.godpan.me/2017/11/10/mysql-protocol.html?utm_source=hacpai.com)
-* [常见爬虫基础学习](https://zhangslob.github.io/docs/)
+* [常见爬虫基础学习](https://zhangslob.github.io/docs/)，比较系统全面的介绍了常见的爬虫工程师需要掌握的基本技能
+* [python 的各种时间格式介绍](https://www.cnblogs.com/doit8791/p/10398997.html)

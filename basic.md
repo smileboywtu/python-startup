@@ -151,11 +151,22 @@ source /usr/bin/virtualenvwrapper.sh
 + [Let’s Build A Web Server. Part 2.](https://ruslanspivak.com/lsbaws-part2/)
 + [Let’s Build A Web Server. Part 3.](https://ruslanspivak.com/lsbaws-part3/)
 
-## web 开发扩展
+## Web 开发扩展
 
 + [Web Network Basic Tutorial](./static/articles/web-network-basic-tutorial.md)
 + [HTTP TCP UDP](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539211&idx=1&sn=629d1115b3992572d94b5d3e2295eb0f&scene=0)
 + [Simple Python Framework From Scratch](http://mattscodecave.com/posts/simple-python-framework-from-scratch.html)
+
+## 开发工具推荐
+
++ vim
++ vscode
++ pycharm
+
+之所以推荐 vim 是因为使用 vim 是必须的，而且有时候结合 linux 系统命令的话 vim 查询代码比较快捷。
+## 网络知识
++ [OpenVPN 协议基础](https://www.saminiir.com/openvpn-puts-packets-inside-your-packets/)
++ [ARP 协议理解](https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
 
 ## 其他资料汇总
 + [show me the code](https://github.com/Yixiaohan/show-me-the-code)

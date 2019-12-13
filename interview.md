@@ -45,7 +45,7 @@
 # python笔试
 
 - [github 面试题目精选](https://github.com/CyC2018/Interview-Notebook)
-- [绿盟科技](https://192.168.5.246/svn/cloud/Etau/trunk/api)
+- [interview python](https://github.com/taizilongxu/interview_python)
 - [一个学渣的阿里之路](https://crossoverjie.top/2018/06/21/personal/Interview-experience/)
 
 # 面试交流

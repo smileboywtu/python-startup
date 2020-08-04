@@ -17,4 +17,6 @@ Python 库的说明和使用积累。
 * [process manage](http://supervisord.org/running.html)
 * [astpath](https://github.com/hchasestevens/astpath)，使用xpath来查找Python源文件中的信息
 * [wordcloud](https://github.com/amueller/word_cloud)，python 词云生成工具
-* [toolz](https://github.com/pytoolz/cytoolz)
+* [toolz](https://github.com/pytoolz/cytoolz),function programing tool in python
+* [Dtale](https://github.com/man-group/dtale), 与 pandas 结合的一个 python 可视化操作工具库，非常棒
+* [seaborn](https://seaborn.pydata.org/index.html), pandas 数据可视化工具，比 matplotlib 使用起来方便，支持的特性比较多
